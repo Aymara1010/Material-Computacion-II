@@ -6,11 +6,12 @@ def cambio_pag(ant=None, sig=None):
     
     with col1:
         if ant:
-            if st.button("Pág Anterior", use_container_width=True, type="primary"):
+            if st.button("**⬅️ Página Anterior**", use_container_width=True, type="primary"):
                 st.switch_page(ant)
                 
     with col2:
         if sig:
-            if st.button("Pág Siguiente", use_container_width=True, type="primary"):
+            if st.button("**Siguiente Página ➡️**", use_container_width=True, type="primary"):
                 st.switch_page(sig)
+
     
