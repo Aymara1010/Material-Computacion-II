@@ -15,7 +15,7 @@ st.markdown("""
         padding: 15px;
         border-radius: 5px;
         border-left: 5px solid #FF4B4B;
-        border-bottom: 4px solid #FF4B4B;
+        border-bottom: 5px solid #FF4B4B;
         margin-bottom: 10px;
     }
     </style>
@@ -44,6 +44,9 @@ with col1:
     
     with tab1:
         st.image("Plan-de-Evaluacion.jpeg")
+        st.markdown("""<div class="justificar">
+                    <p> <spam class="destacar">NOTA:</spam> La materia cuenta con algunos requisitos para aprobarla como el hecho de que para pasar la materia es necesario sacar 10 pts o más en el trabajo final. Así mismo, para hacer el trabajo final es necesario tener un un promedio mayor o igual a 12 pts entre el parcial y la exposición, como requisito adicional. </p>
+                    </div>""", unsafe_allow_html=True)       
     with tab2:
         st.markdown("""<div class="justificar">
                     <spam class="destacar"> Challenge #1:</spam>
@@ -77,5 +80,37 @@ with col1:
 
 with col2:        
     st.subheader("📖 Temas a Explorar:")
+    
+    with st.expander("**📌 TEMA 00:**  Introducción a las BBDD", expanded=True):
+        st.markdown("""<div class="justificar">
+                    <spam class="destacar"> 0.1 - Introducción a las BBDD:</spam>
+                    <p>📑 ¿Qué son las BBDD? ¿Cuales son sus Tipos? Tipos de Datos, Importancia y Uso de las BBDD...</p>
+                    <spam class="destacar"> 0.2 - Conceptos Básicos:</spam>
+                    <p>📑 Glosario de térmimos importantes de las bases de datos... </p>
+                    </div>""", unsafe_allow_html=True) 
+           
+    with st.expander("**📌 TEMA 01:**  Normalización en BBDD", expanded=True):
+        st.markdown("""<div class="justificar">
+                    <spam class="destacar"> 1.1 - Normalización:</spam>
+                    <p>📑 Introducción a las normalización en bases de datos y sus 3 formas normales. </p>
+                    <spam class="destacar"> 1.2 - Denormalización:</spam>
+                    <p>📑 Introducción a la Denormalización y sus técnicas.</p>
+                    <spam class="destacar"> 1.3 - Comparación de Modelos:</spam>
+                    <p>📑 Comparación entre la normalización y denormalización, cuando y como usar cada una y su importancia en el diseño de BBDD.</p>
+                    </div>""", unsafe_allow_html=True)
+        
+    with st.expander("**📌 TEMA 02:**  Diagramas Entidad Relación"):
+        st.markdown("""<div class="justificar">
+                    <spam class="destacar"> 2.1 - Introducción a DER:</spam>
+                    <p>📑 Introducción a los diagramas entidad-relación y conceptos importantes a tomar en cuenta. </p>
+                    <spam class="destacar"> 2.2 - Notación de DER:</spam>
+                    <p>📑 Notación necesaria para DER y sus elementos. </p>
+                    </div>""", unsafe_allow_html=True)
+        
+    with st.expander("**📌 TEMA 03:**  Consultas con SQL"):
+        st.markdown("""<div class="justificar">
+                    <spam class="destacar"> 3.0 - Consultas en SQL</spam>
+                    <p>⚠️ En construcción... </p>
+                    </div>""", unsafe_allow_html=True)
 
 utils.cambio_pag(sig="Indice/GENERAL/01_Introduccion.py")
