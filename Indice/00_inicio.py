@@ -113,4 +113,4 @@ with col2:
                     <p>⚠️ En construcción... </p>
                     </div>""", unsafe_allow_html=True)
 
-utils.cambio_pag(sig="Indice/GENERAL/01_Introduccion.py")
+utils.cambio_pag(sig="Indice/TEMA 00/00_ConceptosBasicos.py")

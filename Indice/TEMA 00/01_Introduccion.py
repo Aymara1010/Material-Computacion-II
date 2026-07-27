@@ -73,4 +73,4 @@ with fk:
 
 st.subheader("Tipos de Llaves Primarias")
 
-utils.cambio_pag(ant="Indice/GENERAL/00_inicio.py", sig="Indice/TEMA 01/00_Normalizacion.py")
+utils.cambio_pag(ant="Indice/TEMA 00/00_ConceptosBasicos.py", sig="Indice/TEMA 00/02_TiposdeDatos.py")
