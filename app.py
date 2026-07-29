@@ -5,7 +5,7 @@ st.set_page_config(page_title="Computación II", page_icon="⌨️", layout="wid
 pg_00 = st.Page("Indice/00_inicio.py", title="Inicio")
 
 pg_01 = st.Page("Indice/TEMA 00/00_ConceptosBasicos.py", title="Conceptos Básicos")
-pg_02 = st.Page("Indice/TEMA 00/01_Introduccion.py", title="Introducción a las BBDD")
+pg_02 = st.Page("Indice/TEMA 00/01_Introduccion.py", title="Bases de Datos")
 pg_03 = st.Page("Indice/TEMA 00/02_TiposdeDatos.py", title="Tipos de Datos")
 
 pg_04 = st.Page("Indice/TEMA 01/00_Normalizacion.py", title="Normalizacion")
@@ -20,7 +20,7 @@ pg_10 = st.Page("Indice/TEMA 03/00_SQL.py", title="Introducción a SQL")
 
 pg = st.navigation({
     "**🏠 HOME**": [pg_00],
-    "**📙 TEMA 00: Bases de Datos**": [pg_01, pg_02, pg_03],
+    "**📙 TEMA 00: Introducción a las BBDD**": [pg_01, pg_02, pg_03],
     "**📕 TEMA 01 : Normalización en BBDD**": [pg_04, pg_05, pg_06],
     "**📗 TEMA 02 : Diagrama Entidad Relación**": [pg_07, pg_08, pg_09],
     "**📘 TEMA 03 : SQL**": [pg_10]
