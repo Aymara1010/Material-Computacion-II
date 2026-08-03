@@ -123,7 +123,7 @@ with st.expander("**:red[🎯 ¿Cuando Utilizar Cada Uno?]**", expanded=True):
                         <spam class="destacar">📌 VARCHAR: </spam>
                         <p>Es la opción predeterminada para casi todo. Se usa cuando la longitud del texto varíe de un usuario a otro: nombres, correos electrónicos, direcciones o descripciones de productos.  </p>
                         <spam class="destacar">📌 UNICODE: </spam>
-                        <p>Indispensable si la plataforma es multi-idioma o si se permite que los usuarios envíen mensajes desde sus teléfonos (para soportar emojis sin romper la base de datos). Se tiene que esar con inteligencia, ya que pesa más. </p>
+                        <p>Indispensable si la plataforma es multi-idioma o si se permite que los usuarios envíen mensajes desde sus teléfonos (para soportar emojis sin romper la base de datos). Se tiene que usar con inteligencia, ya que pesa más. </p>
                         </div>""", unsafe_allow_html=True)
 
 st.subheader("📆 Datos de Fecha:")

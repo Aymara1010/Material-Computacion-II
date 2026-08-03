@@ -25,7 +25,7 @@ st.title("**🏠 ¡Bienvenid@ a Mis Apuntes de Computación II!**")
 
 st.markdown('''
             <div class="justificar">
-            ¡Hola, mi nombre es Aymara! Y he creado esta app para guardar todo el contenido referente a la materia <spam class="destacar">Computación II</spam>, aquí encontrarás material de todo tipo así como ejemplos y ejercicios prácticos ¿Qué esperas? ¡Sientete libre de explorar! ✨✨<br><br>
+            ¡Hola, mi nombre es Aymara! Y he creado esta app para guardar todo el contenido referente a la materia <spam class="destacar">Computación II</spam>, aquí encontrarás material de todo tipo así como ejemplos y ejercicios prácticos ¿Qué esperas? ¡Siéntete libre de explorar! ✨✨<br><br>
             </div>''', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
@@ -59,7 +59,7 @@ with col1:
     with tab3:
         st.markdown("""<div class="justificar">
                     <center class="destacar"> PARCIAL</center>
-                    <p> Está es una evaluación representa el 30% de la nota final y abarca los tres temas vistos en clase (tanto la parte teorica como la parte práctica).<br><br>
+                    <p> Esta es una evaluación representa el 30% de la nota final y abarca los tres temas vistos en clase (tanto la parte teorica como la parte práctica).<br><br>
                     La evaluación se hará de forma individual y su nota, junto con la exposición grupal, forman parte del requisito minimo para hacer el Trabajo Final.<br><br>
                     Si el promedio entre la <spam class="destacar">Nota del Parcial</spam> y la Nota de la exposición es mayor o igual a 12 pts, entonces se puede hacer el Trabajo Final.</p>
                     </div>""", unsafe_allow_html=True) 
