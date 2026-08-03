@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Computación II", page_icon="⌨️", layout="wide")
+st.set_page_config(page_title="Computación II", page_icon="⌨️", layout="wide", initial_sidebar_state="collapsed")
 
 pg_00 = st.Page("Indice/00_inicio.py", title="Inicio")
 
