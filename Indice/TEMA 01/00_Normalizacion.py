@@ -110,7 +110,7 @@ st.markdown("""<div class="justificar">
                 <p>⚠️ En Construcción... </p>
                 </div>""", unsafe_allow_html=True)
 
-tab1, tab2 = st.tabs(["CLAVES", "DEPENDENCIAS"])
+tab1, tab2, tab3 = st.tabs(["CLAVES", "DEPENDENCIAS", "RELACIONES"])
 
 with tab1:
     st.subheader("Claves")
@@ -142,6 +142,27 @@ with tab2:
    with dep2:
       with st.container(border=True):
          st.markdown('''<b class="destacar">TRANSITIVA</b><br>
+                   ⚠️ En Construcción...
+                   ''',  unsafe_allow_html=True)
+with tab3:
+   st.subheader("Relaciones")
+   st.markdown("""<div class="justificar">
+                <p>⚠️ En Construcción... </p>
+                </div>""", unsafe_allow_html=True)
+   re1, re2, re3 = st.columns(3)
+   with re1:
+      with st.container(border=True):
+         st.markdown('''<b class="destacar">UNO A UNO</b><br>
+                   ⚠️ En Construcción...
+                   ''',  unsafe_allow_html=True)
+   with re2:
+      with st.container(border=True):
+         st.markdown('''<b class="destacar">UNO A MUCHOS</b><br>
+                   ⚠️ En Construcción...
+                   ''',  unsafe_allow_html=True)
+   with re3:
+      with st.container(border=True):
+         st.markdown('''<b class="destacar">MUCHOS A MUCHOS</b><br>
                    ⚠️ En Construcción...
                    ''',  unsafe_allow_html=True)
 
