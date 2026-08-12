@@ -61,6 +61,8 @@ st.markdown("""<div class="justificar">
                     <p>La seguridad es más fácil de gestionar en bases de datos normalizadas. Puedes controlar el acceso a nivel de tabla con confianza, ya que los datos confidenciales se almacenan en ubicaciones específicas y bien definidas. </p>
                     </div>""", unsafe_allow_html=True)
 
+
+
 ven1, des2 = st.columns(2)
 with ven1:
     with st.expander("Ventajas",expanded=True):
