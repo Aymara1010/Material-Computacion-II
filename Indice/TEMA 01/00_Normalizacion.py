@@ -1,6 +1,33 @@
 import streamlit as st
 import utils
 
+st.markdown("""
+    <style>
+    .justificar {
+        text-align: justify;
+    }
+    .destacar {
+        color: #FF4B4B;
+        font-weight: bold;
+    }
+    .contenedor {
+        background-color: #1E2023;
+        padding: 15px;
+        border-radius: 5px;
+        border-left: 5px solid #FF4B4B;
+        border-bottom: 5px solid #FF4B4B;
+        margin-bottom: 10px;
+    }
+    .contenedor-lista {
+        background-color: #1E2023;
+        padding: 15px;
+        border-radius: 5px;
+        border-left: 5px solid #FF4B4B;
+        margin-bottom: 10px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.title("Normalización")
 st.header("¿Qué es la Normalización?")
 st.markdown("""<div class="justificar">

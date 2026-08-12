@@ -9,8 +9,8 @@ pg_02 = st.Page("Indice/TEMA 00/01_Introduccion.py", title="Bases de Datos")
 pg_03 = st.Page("Indice/TEMA 00/02_TiposdeDatos.py", title="Tipos de Datos")
 
 pg_04 = st.Page("Indice/TEMA 01/00_Normalizacion.py", title="Normalizacion")
-pg_05 = st.Page("Indice/TEMA 01/01_Denormalizacion.py", title="Denormalización")
-pg_06 = st.Page("Indice/TEMA 01/02_EjerciciosTema1.py", title="Ejecicios Resueltos")
+pg_05 = st.Page("Indice/TEMA 01/01_Arquitectura.py", title="Arquitectura y Modelado")
+pg_06 = st.Page("Indice/TEMA 01/02_Denormalizacion.py", title="Denormalización")
 
 pg_07 = st.Page("Indice/TEMA 02/00_DER.py", title="Introducción a DER")
 pg_08 = st.Page("Indice/TEMA 02/01_NotacionDER.py", title="Notación de DER")
