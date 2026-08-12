@@ -62,7 +62,6 @@ st.header("Arquitecturas de Inmon y Kimball")
 st.markdown("""<div class="justificar">
                     <p>El almacenamiento de datos es un componente fundamental de la ingeniería de datos moderna, ya que permite a las organizaciones almacenar, gestionar y analizar grandes volúmenes de datos. Dos enfoques destacados para la arquitectura de almacenes de datos son los propuestos por Bill Inmon y Ralph Kimball.</p>
                     </div>""", unsafe_allow_html=True)
-
 arq1, arq2 = st.columns(2)
 with arq1:
     st.subheader("Arquitectura de Inmon")
