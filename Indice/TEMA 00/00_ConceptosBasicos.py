@@ -127,4 +127,4 @@ st.markdown("""<div class="justificar">
                     <p>Es el campo, o conjunto de campos, que hace referencia directa a la clave primaria de otra tabla. Funciona como un "ancla" que establece y garantiza el vínculo lógico (integridad referencial) entre los registros de ambas tablas, impidiendo que existan datos huérfanos.</p>
                     </div>""", unsafe_allow_html=True)
 
-utils.cambio_pag(ant="Indice/00_inicio.py", sig="Indice/TEMA 00/01_Introduccion.py")
+utils.cambio_pag(ant="Indice/01_material.py", sig="Indice/TEMA 00/01_Introduccion.py")

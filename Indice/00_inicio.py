@@ -43,7 +43,7 @@ with col1:
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["General" ,"Challenges" ,"Parcial", "Exposición", "Trabajo Final"])
     
     with tab1:
-        st.image("Plan-de-Evaluacion.jpeg")
+        st.image("Imagenes/Plan-de-Evaluacion.jpeg")
         st.markdown("""<div class="justificar">
                     <p> <spam class="destacar">NOTA:</spam> La materia cuenta con algunos requisitos para aprobarla como el hecho de que para pasar la materia es necesario sacar 10 pts o más en el trabajo final. Así mismo, para hacer el trabajo final es necesario tener un un promedio mayor o igual a 12 pts entre el parcial y la exposición, como requisito adicional. </p>
                     </div>""", unsafe_allow_html=True)       
@@ -113,4 +113,4 @@ with col2:
                     <p>⚠️ En construcción... </p>
                     </div>""", unsafe_allow_html=True)
 
-utils.cambio_pag(sig="Indice/TEMA 00/00_ConceptosBasicos.py")
+utils.cambio_pag(sig="Indice/01_material.py")

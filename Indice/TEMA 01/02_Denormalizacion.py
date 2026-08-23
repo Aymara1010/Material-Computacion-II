@@ -29,21 +29,21 @@ st.markdown("""<div class="justificar">
                 La denormalización es el acto deliberado de añadir datos redundantes a un esquema previamente normalizado para acelerar las lecturas y simplificar las consultas. Se trata de una optimización del rendimiento específica.
                 Si eres bastante nuevo en el diseño de bases de datos, conviene analizar el significado de «normalizado», «desnormalizado» y «no normalizado». Estos tres términos se utilizan con bastante frecuencia y es importante no confundirlos.<br><br>
                 🧩 <b class="destacar">Normalizado:</b> Los datos se dividen en tablas bien estructuradas que minimizan la redundancia y protegen la integrida.<br>
-                🧩 <b class="destacar">Desnormalizado:</b> Reintroduce redundancia selectiva a través de distintas técnicas, además de ese modelo normalizado, para acelerar las lecturas comunes.<br>
+                🧩 <b class="destacar">Denormalizado:</b> Reintroduce redundancia selectiva a través de distintas técnicas, además de ese modelo normalizado, para acelerar las lecturas comunes.<br>
                 🧩 <b class="destacar">Sin normalizar:</b> Datos sin procesar, o desordenados, cuya estructura y restricciones nunca se diseñaron adecuadamente. Eso no es lo que estamos haciendo aquí. </p>
                 </div>""", unsafe_allow_html=True)
 
 st.subheader("📢 Por qué y Cuándo Denormalizar:")
 st.markdown("""<div class="justificar">
-                <p>Realmente conviene utilizar la desnormalización cuando te proporciona la mayor velocidad de lectura con la menor carga operativa adicional, y solo después de haber descartado soluciones más económicas.<br><br>
-                La desnormalización resulta realmente útil cuando los usuarios reales y las consultas reales se ven bloqueados por uniones, agregaciones o búsquedas repetidas. Una vez que hayas confirmado que la indexación, el ajuste de consultas y el almacenamiento en caché no son suficientes, es posible que desees recurrir a la desnormalización para optimizar la velocidad de lectura en patrones de acceso predecibles.</p>
+                <p>Realmente conviene utilizar la denormalización cuando te proporciona la mayor velocidad de lectura con la menor carga operativa adicional, y solo después de haber descartado soluciones más económicas.<br><br>
+                La denormalización resulta realmente útil cuando los usuarios reales y las consultas reales se ven bloqueados por uniones, agregaciones o búsquedas repetidas. Una vez que hayas confirmado que la indexación, el ajuste de consultas y el almacenamiento en caché no son suficientes, es posible que desees recurrir a la denormalización para optimizar la velocidad de lectura en patrones de acceso predecibles.</p>
                 </div>""", unsafe_allow_html=True)
 
 ra1, ra2 = st.columns(2)
 with ra1:
     with st.container(border=True):
         st.markdown('''<b class="destacar">🎯 Informes de BI:</b><br>
-                    Usan la desnormalización porque calcular millones de filas en tiempo real vuelve los reportes muy lentos. Al guardar los datos ya sumados y agrupados, los ejecutivos pueden ver gráficos y tomar decisiones de forma inmediata y efeciente sin sobrecargar el servidor.
+                    Usan la denormalización porque calcular millones de filas en tiempo real vuelve los reportes muy lentos. Al guardar los datos ya sumados y agrupados, los ejecutivos pueden ver gráficos y tomar decisiones de forma inmediata y efeciente sin sobrecargar el servidor.
                    ''',  unsafe_allow_html=True)    
     with st.container(border=True):
         st.markdown('''<b class="destacar">🎯 Contadores:</b><br>
@@ -61,7 +61,7 @@ with ra2:
 
 st.header("✒️ Ventajas y Desventajas de la Denormalización:")
 st.markdown("""<div class="justificar">
-                <p>La desnormalización es una estrategia que rompe las reglas tradicionales de organización de datos para introducir duplicación de información de forma inteligente y controlada. No se trata de un error de diseño, sino de un intercambio estratégico: se sacrifica el espacio de almacenamiento y la facilidad de actualizar datos con el único fin de conseguir una velocidad de respuesta extrema en sistemas de reportes y análisis.<br><br>
+                <p>La denormalización es una estrategia que rompe las reglas tradicionales de organización de datos para introducir duplicación de información de forma inteligente y controlada. No se trata de un error de diseño, sino de un intercambio estratégico: se sacrifica el espacio de almacenamiento y la facilidad de actualizar datos con el único fin de conseguir una velocidad de respuesta extrema en sistemas de reportes y análisis.<br><br>
                 A continuación, te presento el balance detallado de los beneficios y problemas que genera esta técnica: </p>
                 </div>""", unsafe_allow_html=True)
 
@@ -92,7 +92,7 @@ st.markdown("""<div class="justificar">
                 <p>El modelado dimensional de Kimball sigue un proceso de cuatro pasos: selección de un proceso de negocio, identificación del nivel de detalle, definición de dimensiones e identificación de hechos. El modelo dimensional resultante estructura los datos en tablas de hechos y dimensiones que permiten consultas rápidas, informes intuitivos y análisis escalables, lo que lo convierte en uno de los enfoques más utilizados para las soluciones modernas de almacenamiento de datos e inteligencia empresarial. </p>
                 </div>""", unsafe_allow_html=True)
 st.markdown("""<div class="justificar">
-                <p> La desnormalización no se aplica al azar, sino que se ejecuta de forma ordenada a través de cada una de estas etapas de diseño. Los cuatro pasos son la guía estructurada para saber qué datos desnormalizar, en qué medida y dónde colocarlos sin perder el control de la información.</p>
+                <p> La denormalización no se aplica al azar, sino que se ejecuta de forma ordenada a través de cada una de estas etapas de diseño. Los cuatro pasos son la guía estructurada para saber qué datos desnormalizar, en qué medida y dónde colocarlos sin perder el control de la información.</p>
                 </div>""", unsafe_allow_html=True)
 st.write(" ")
 pas1, pas2, pas3, pas4 = st.columns(4)
@@ -211,4 +211,4 @@ with tec3:
                                 <p>Cuando tu motor de base de datos (como Oracle, PostgreSQL, SQL Server o BigQuery) cuenta con soporte nativo para refrescar vistas materializadas de forma eficiente (incremental o programada), evitando que tú tengas que programar códigos complejos para actualizar los datos duplicados.</p>
                                 </div>""", unsafe_allow_html=True) 
 
-utils.cambio_pag(ant="Indice/TEMA 01/01_Arquitectura.py", sig="Indice/TEMA 02/00_DER.py")
+utils.cambio_pag(ant="Indice/TEMA 01/01_Arquitectura.py", sig="Indice/TEMA 02/00_IntroduccionDER.py")

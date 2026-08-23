@@ -31,7 +31,7 @@ st.markdown("""<div class="justificar">
 with st.expander("**📌 ESQUEMA**"):
     data1, data2, data3 = st.columns([1, 2, 1])
     with data2:
-        st.image("Datawherehouse.jpg", width= 600)
+        st.image("Imagenes/Datawherehouse.jpg", width= 600)
 
 st.subheader("📝 Componentes de la Arquitectura de un Almacén de Datos:")
 col1, col2, col3 = st.columns(3)
@@ -78,7 +78,7 @@ st.markdown("""<div class="justificar">
 with st.expander("📌 **ESQUEMAS**"):
     esq1, esq2, esq3 = st.columns([1, 2, 1])
     with esq2:
-        st.image("inmonvskimball.png", width= 600)
+        st.image("Imagenes/inmonvskimball.png", width= 600)
 
 arq1, arq2 = st.columns(2)
 with arq1:
@@ -212,7 +212,7 @@ st.markdown("""<div class="justificar">
 with st.expander("📌 :red[**ESQUEMAS**]"):
     mode1, mode2, mode3 = st.columns([1, 2, 1])
     with mode2:
-        st.image("Esquemas.jpg", width= 600)
+        st.image("Imagenes/Esquemas.jpg", width= 600)
 
 mod1, mod2 = st.columns(2)
 with mod1:
