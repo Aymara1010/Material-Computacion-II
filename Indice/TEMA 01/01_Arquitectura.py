@@ -111,8 +111,7 @@ with arq1:
     with st.expander("📌 **¿Cuando Usar?:**"):
         st.markdown("""<div class="justificar">
                     <p>Se elige la arquitectura de Inmon si trabajas en una gran corporación que exige una única versión de la verdad, consistencia global y un control de auditoría estricto a largo plazo. Este enfoque es necesario cuando se deben integrar masivas y complejas fuentes de datos heterogéneas en un repositorio central completamente normalizado (3NF), aceptando un costo inicial más alto y tiempos de desarrollo prolongados a cambio de un mantenimiento corporativo robusto y estructurado. </p>
-                    </div>""", unsafe_allow_html=True)
-        
+                    </div>""", unsafe_allow_html=True)  
 with arq2:
     st.subheader("🏠 Arquitectura de Kimball:")
     with st.container(border=True):
