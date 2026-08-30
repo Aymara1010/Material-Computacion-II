@@ -118,7 +118,7 @@ with fn3:
 
 st.header("🌐 Conceptos Clave Para la Normalización")
 st.markdown("""<div class="justificar">
-                <p>Para poder normalizar correctamente una base de datos, es vital comprender algunos conceptos que nos pueden ayudar a aplicar con facilidad cada una de las formas normales. Entender conceptos como lo son las claves, dependencias o cardinalidad te serán de ayuda al momento de aplicr sta técnica.</p>
+                <p>Para poder normalizar correctamente una base de datos, es vital comprender algunos conceptos que nos pueden ayudar a aplicar con facilidad cada una de las formas normales. Entender conceptos como lo son las claves, dependencias o cardinalidad te serán de ayuda al momento de aplicar esta técnica.</p>
                 </div>""", unsafe_allow_html=True)
 
 tab1, tab2, tab3 = st.tabs(["CLAVES", "DEPENDENCIAS", "RELACIONES"])
@@ -127,7 +127,7 @@ with tab1:
     st.subheader("🔑 Claves:")
     st.markdown("""<div class="justificar">
                 <p>Ya hemos explorado anteriormente el concepto de las claves primarias y fóraneas. Las claves son la base del diseño de bases de datos relacionales: identifican registros y conectan tablas entre sí.
-                En normalización, las  claves primarias juegan un papel importante en la primera y segúnda forma normal, por lo que es importante identificar las claves primarias simples y compuestas para facilitar el proceso.</p>
+                En normalización, las  claves primarias juegan un papel importante en la primera y segunda forma normal, por lo que es importante identificar las claves primarias simples y compuestas para facilitar el proceso.</p>
                 </div>""", unsafe_allow_html=True)
     clav1, clav2 = st.columns(2)
     with clav1:

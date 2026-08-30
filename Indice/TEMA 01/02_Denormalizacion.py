@@ -28,7 +28,7 @@ st.markdown("""<div class="justificar">
                 <p>Ya hemos abarcado las múltiples ventajas y desventajas que de la normalización, pero, ¿Qué pasa cuando la normalización trae más problemas que soluciones? Ahí es cuando entra la denormalización.<br><br>
                 La denormalización es el acto deliberado de añadir datos redundantes a un esquema previamente normalizado para acelerar las lecturas y simplificar las consultas. Se trata de una optimización del rendimiento específica.
                 Si eres bastante nuevo en el diseño de bases de datos, conviene analizar el significado de «normalizado», «desnormalizado» y «no normalizado». Estos tres términos se utilizan con bastante frecuencia y es importante no confundirlos.<br><br>
-                🧩 <b class="destacar">Normalizado:</b> Los datos se dividen en tablas bien estructuradas que minimizan la redundancia y protegen la integrida.<br>
+                🧩 <b class="destacar">Normalizado:</b> Los datos se dividen en tablas bien estructuradas que minimizan la redundancia y protegen la integridad.<br>
                 🧩 <b class="destacar">Denormalizado:</b> Reintroduce redundancia selectiva a través de distintas técnicas, además de ese modelo normalizado, para acelerar las lecturas comunes.<br>
                 🧩 <b class="destacar">Sin normalizar:</b> Datos sin procesar, o desordenados, cuya estructura y restricciones nunca se diseñaron adecuadamente. Eso no es lo que estamos haciendo aquí. </p>
                 </div>""", unsafe_allow_html=True)

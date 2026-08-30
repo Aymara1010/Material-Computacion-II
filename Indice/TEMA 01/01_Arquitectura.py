@@ -41,22 +41,22 @@ with col1:
                     Un almacén de datos recopila información de diversas fuentes, incluidos datos estructurados de bases de datos relacionales y datos no estructurados como registros o archivos de texto. 
                     </div>""", unsafe_allow_html=True)
     st.markdown("""<div class="contenedor-lista">
-                    <b class="destacar">4.✏️ Almacenamiento de Datos</b><br>
-                    En el núcleo del almacén de datos se encuentra la capa de almacenamiento, donde los datos se organizan en tablas de hechos y dimensiones. Estos suelen estar compuestos por DataMarts (pequeños almacenes).
-                    </div>""", unsafe_allow_html=True)
-with col2:
-    st.markdown("""<div class="contenedor-lista">
                     <b class="destacar">2.✏️ ETL o ELT</b><br>
                     En el ETL se extraen datos de los sistemas de origen, los transforman en un área de preparación y los cargan en el almacén de datos. En ELT, los datos se transforman después de haber sido cargados en el almacén. 
                     </div>""", unsafe_allow_html=True)
-    st.markdown("""<div class="contenedor-lista">
-                    <b class="destacar">5.✏️ Metadatos</b><br>
-                    La capa de metadatos gestiona y mantiene la estructura y las relaciones dentro del almacén de datos. Los metadatos nos proporcionan información sobre las fuentes de datos, el esquema y las transformaciones. 
-                    </div>""", unsafe_allow_html=True)
-with col3:
+with col2:
     st.markdown("""<div class="contenedor-lista">
                     <b class="destacar">3.✏️ Área de Preparación</b><br>
                     El área de preparación es un espacio de almacenamiento temporal y opcional donde se guardan los datos sin procesar antes de ser procesados ​y cargados en el almacén de datos.
+                    </div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="contenedor-lista">
+                    <b class="destacar">4.✏️ Almacenamiento de Datos</b><br>
+                    En el núcleo del almacén de datos se encuentra la capa de almacenamiento, donde los datos se organizan en tablas de hechos y dimensiones. Estos suelen estar compuestos por DataMarts (pequeños almacenes).
+                    </div>""", unsafe_allow_html=True)  
+with col3:
+    st.markdown("""<div class="contenedor-lista">
+                    <b class="destacar">5.✏️ Metadatos</b><br>
+                    La capa de metadatos gestiona y mantiene la estructura y las relaciones dentro del almacén de datos. Los metadatos nos proporcionan información sobre las fuentes de datos, el esquema y las transformaciones. 
                     </div>""", unsafe_allow_html=True)
     st.markdown("""<div class="contenedor-lista">
                     <b class="destacar">6.✏️ Acceso y Análisis de Datos</b><br>
