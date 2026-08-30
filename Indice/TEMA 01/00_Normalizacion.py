@@ -45,6 +45,7 @@ st.subheader("📋:red[¿Por qué Normalizar?:]")
 st.markdown("""<div class="justificar">
                     <p> Como se ha mencionado anteriormente, la normalización es una técnica muy utilizada en el diseño de bases de datos, por lo que hay que tener en cuenta las principales razones por la que es tan aplicada en esta área.</p>
                    </div>""", unsafe_allow_html=True)
+
 nor1, nor2 = st.columns(2)
 with nor1:
     st.markdown("""<div class="contenedor-lista">
